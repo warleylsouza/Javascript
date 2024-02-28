@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +13,36 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Iniciando estudos com o DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript. </p>
-    <div id ="msg">Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
 
-       /* var d = window.document.getElementById('msg')
-        d.style.background = 'green'
-        d.innerText = ' Estou Aguardando...'
-        */
+        /* var d = window.document.getElementById('msg')
+         d.style.background = 'green'
+         d.innerText = ' Estou Aguardando...'
+         */
 
         /*var d = window.document.getElementsByClassName('msg')[0]
         d.innerText = 'Olá!'
         */
 
-         var d = window.document.querySelector('div#msg')
-         d.style.color = 'darkblue'
-         d.style.background = ' blue'
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'darkblue'
+        d.style.background = ' blue'
 
         //window.alert(p1.innerText)
-       // document.write(p1.innerHTML)
-       //window.document.write('Esta escrito assim: ' + p1.innerText)
+        // document.write(p1.innerHTML)
+        //window.document.write('Esta escrito assim: ' + p1.innerText)
         //corpo.style.background = 'gray'
         //p1.style.color = 'black'
-        
+
     </script>
 </body>
+
 </html>
