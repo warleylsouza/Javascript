@@ -19,6 +19,8 @@
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript. </p>
     <div id="msg">Clique em mim</div>
+    <!-- <div class="msg">Clique em mim</div> -->
+    
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
@@ -33,6 +35,7 @@
         */
 
         var d = window.document.querySelector('div#msg')
+        // var d = window.document.querySelector('div.msg')
         d.style.color = 'darkblue'
         d.style.background = ' blue'
 
