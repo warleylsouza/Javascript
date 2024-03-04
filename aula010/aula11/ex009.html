@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estrangeiro ou Brasileiro</title>
+    <style>
+        body{
+            background: rgb(10, 141, 141);
+            
+        }
+        input{ 
+            margin: 10px;
+            width: 150px;
+            height: 20px;
+        }
+        input#verifique{
+            width: 150px;
+            height:26px ;
+        }
+    </style>
 </head>
 <body>
+    
     <h1>Estrangeiro ou Brasileiro</h1>
     País = <input type="text" name="naturalidade" id="naturalidade"
     >
-    <input type="button" value="Verificar" onclick="clicar()">
+    <input id="verifique" type="button" value="Verificar" onclick="clicar()">
 
     <div id="res"></div>
     
