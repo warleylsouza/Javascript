@@ -27,6 +27,7 @@ section{
         
     }
 }
+
 @media(max-width:1024px){
     section{
         width: 700px;
