@@ -9,6 +9,7 @@ while (c <= 5){
 */
 
 //Estrutura e repetição com teste logico no final
+
 var c = 1
 do {
     console.log(`Passo ${c}`)
