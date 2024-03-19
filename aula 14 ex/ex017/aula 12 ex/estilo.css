@@ -23,3 +23,25 @@ footer {
     font-style: italic;
 }
 
+@media(max-width:1200px){
+    section{
+        min-width: 970px;
+        
+    }
+}
+
+@media(max-width:1024px){
+    section{
+        min-width: 700px;
+    }
+}
+@media(max-width:768px){
+    section{
+        min-width:400px;
+    }
+}
+@media(max-width:425px){
+    section{
+        min-width: 320px;
+    }
+}
